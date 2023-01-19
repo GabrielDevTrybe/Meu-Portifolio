@@ -3,6 +3,7 @@ import React from 'react'
 
 import SocialNetworkContainer from "./SocialNetworkContainer";
 import InformationContainer from "./InformationContainer";
+import Curriculo from "../curriculo/GABRIELCOELHODEOLIVEIRA-CURRICULUM.pdf"
 
 
 import Avatar from "../img/eu.jpeg";
@@ -16,9 +17,9 @@ const Sidebar = () => {
       <p className="title">Desenvolvedor</p>
       <SocialNetworkContainer />
       <InformationContainer />
-      <a href="#" className="btn">
+      {/* <a href="../curriculo/GABRIELCOELHODEOLIVEIRA-CURRICULUM.pdf" download className="btn">
         Download currículo
-      </a>
+      </a> */}
     </aside>
   );
 };
