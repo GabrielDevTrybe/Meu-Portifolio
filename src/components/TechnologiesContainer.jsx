@@ -7,7 +7,16 @@ import {
   DiNodejsSmall,
   DiMysql,
   DiReact,
+  DiPython,
 } from "react-icons/di";
+
+import {
+ SiSequelize,
+ SiTypescript,
+ SiMocha
+} from "react-icons/si";
+
+
 
 import "../styles/components/technologiescontainer.sass";
 
@@ -18,6 +27,14 @@ const technologies = [
   { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
   { id: "mysql", name: "MySQL", icon: <DiMysql /> },
   { id: "react", name: "React", icon: <DiReact /> },
+  { id: "python", name: "Python", icon: <DiPython /> },
+  { id: "sequelize", name: "Sequelize", icon: <SiSequelize /> },
+  { id: "typescript", name: "Typescript", icon: <SiTypescript /> },
+  { id: "mocha", name: "Mocha", icon: <SiMocha /> },
+
+
+
+
 ];
 
 const TechnologiesContainer = () => {
