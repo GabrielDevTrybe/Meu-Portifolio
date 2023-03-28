@@ -11,9 +11,9 @@ const ProjectsContainer = () => {
         <h4 className="front">Front-End</h4>
         <br></br>
         <ul>
-          <li><a className="linkProj" href="https://gabrieldevtrybe.github.io/StarWars/" target="_blank">Star Wars</a>
+          <li><a className="linkProj" href="https://filmes-react-beta.vercel.app/" target="_blank">Best Movies</a>
             {/* <br></br> <p>Descrição: Aplicativo de filtro de planetas, com temática star wars</p><br></br> */}
-            <p style={{ color: 'pink' }}>Stacks Utilizadas:</p> <p>React / JavaScript / Hooks</p>          </li>
+            <p style={{ color: 'pink' }}>Stacks Utilizadas:</p> <p>Vite / JavaScript / Hooks </p>          </li>
           <li><a className="linkProj" href="https://gabrieldevtrybe.github.io/Front-End-Online-Store/" target="_blank">Online Store</a>
             {/* <br></br> <p>Descrição: Aplicativo de carrinho de compras, e salvando no LocalStorage</p><br></br> */}
             <p style={{ color: 'pink' }}>Stacks Utilizadas:</p> <p>React / JavaScript</p>
