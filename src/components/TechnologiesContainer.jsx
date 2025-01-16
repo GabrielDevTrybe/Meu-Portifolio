@@ -1,39 +1,31 @@
 import React from "react";
 
-import {
-  DiHtml5,
-  DiCss3,
-  DiJsBadge,
-  DiNodejsSmall,
-  DiMysql,
-  DiReact,
-  DiPython,
+// Importando ícones de tecnologias backend
+import { 
+  DiNodejsSmall, 
+  DiMysql, 
+  DiPython 
 } from "react-icons/di";
-
-import {
- SiSequelize,
- SiTypescript,
- SiMocha
+import { 
+  SiSequelize, 
+  SiTypescript, 
+  SiMocha, 
+  SiCsharp,
+  SiDotnet
 } from "react-icons/si";
-
-
 
 import "../styles/components/technologiescontainer.sass";
 
+// Tecnologias backend
 const technologies = [
-  { id: "html", name: "HTML5", icon: <DiHtml5 /> },
-  { id: "css", name: "CSS3", icon: <DiCss3 /> },
-  { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
   { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
   { id: "mysql", name: "MySQL", icon: <DiMysql /> },
-  { id: "react", name: "React", icon: <DiReact /> },
   { id: "python", name: "Python", icon: <DiPython /> },
   { id: "sequelize", name: "Sequelize", icon: <SiSequelize /> },
   { id: "typescript", name: "Typescript", icon: <SiTypescript /> },
   { id: "mocha", name: "Mocha", icon: <SiMocha /> },
-
-
-
+  { id: "csharp", name: "C#", icon: <SiCsharp /> }, // Ícone para C#
+  { id: "dotnet", name: ".NET", icon: <SiDotnet /> }, // Ícone para .NET
 
 ];
 

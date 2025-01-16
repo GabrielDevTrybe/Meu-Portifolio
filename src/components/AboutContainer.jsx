@@ -5,15 +5,10 @@ const AboutContainer = () => {
     <section className="about-container">
       <h2>Sobre</h2>
       <p className="sobre-txt">
-        Me chamo Gabriel Coelho tenho 27 anos, e atualmente sou
-        desenvolvedor FullStack formado pela Trybe.
-        Busco por oportunidades de iniciar minha carreira como desenvolvedor, e adquirir ainda mais conhecimento em tecnologias diversas.
-      </p>
-      <br></br>
-      <p className= "sobre-txt">
-        O primeiro contato que tive com a tecnologia
-        foi durante o curso da Trybe,
-        onde descobri meu interesse por resolução de problemas e programação. A partir daí venho buscando constante aprendizado.
+      Desenvolvedor backend com 2 anos de experiência. 
+      Atuei por 1 ano e meio na FanBase, onde fui responsável por desenvolver integrações com foco em bancos de dados utilizando C#, MySQL e APIs REST. 
+      Atualmente, trabalho com Python, desenvolvendo automações empresariais e integrando funcionalidades de chatbots com WhatsApp. Tenho experiência em deploy de aplicações na AWS, especialmente utilizando o Lightsail. 
+      Sou apaixonado por otimizar processos e criar soluções escaláveis.
       </p>
       <br></br>
     </section>
