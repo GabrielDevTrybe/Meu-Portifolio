@@ -1,8 +1,7 @@
 import "../styles/components/informationcontainer.sass";
-
 import React from "react";
-
 import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from "react-icons/ai";
+import { FiDownload } from "react-icons/fi"; // Novo ícone de download
 
 const InformationContainer = () => {
   return (
@@ -26,6 +25,23 @@ const InformationContainer = () => {
         <div>
           <h3>Localização</h3>
           <p>Campinas / SP</p>
+        </div>
+      </div>
+
+      {/* Seção de download do currículo */}
+      <div className="info-card">
+        <div className="download-icon">
+          <FiDownload id="download-icon" /> {/* Novo ícone de download */}
+        </div>
+        <div>
+          <h3>Currículo</h3>
+          <a 
+            href="/Curriculo-Gabriel-Backend.pdf" 
+            download="Curriculo-Gabriel-Backend" 
+            className="download-link"
+          >
+            Baixar Currículo
+          </a>
         </div>
       </div>
     </section>

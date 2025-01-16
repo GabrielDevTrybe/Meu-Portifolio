@@ -1,6 +1,6 @@
 @use '../variables'
-@use '../mixins' 
-    
+@use '../mixins'
+
 #information
     @include mixins.center
     flex-direction: column
@@ -9,7 +9,7 @@
     margin-bottom: 2rem
     text-align: left
     width: 80%
-    border-radius: variables.$card-border-radius
+    border-radius: variables.$container-border-radius  // Alterado para a variável correta
 
     .info-card
         @include mixins.center
@@ -44,5 +44,24 @@
 
         #email-icon
             color: #c17ceb
-.sobre-txt
-    color: white
+
+        #download-icon
+            color: white
+
+    .download-link
+        display: inline-flex
+        align-items: center  // Alinha o ícone e o texto verticalmente
+        padding: 10px 20px
+        margin-top: 10px
+        background-color: variables.$primary-color
+        color: white
+        text-decoration: none
+        border-radius: variables.$button-border-radius
+        font-size: 1rem
+        font-weight: bold
+        transition: background-color 0.3s ease
+        gap: 10px  // Cria um espaçamento entre o ícone e o texto
+        width: auto  // Adicionando para garantir que o conteúdo não quebre
+
+        &:hover
+            background-color: variables.$primary-color-dark  // Corrigido para utilizar a variável correta
